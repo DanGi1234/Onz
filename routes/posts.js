@@ -56,7 +56,7 @@ router.get('/add',(req,res) => {
     title,
     content
   })
-  .then(post => res.redirect('/posts'))
+  .then(post => ('/posts'))
   .catch(err => console.log(err))
 }
 )
